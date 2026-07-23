@@ -1,7 +1,17 @@
 aid: alodokter
 name: Alodokter
-description: Alodokter is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alodokter is Indonesia's leading digital health and telemedicine platform,
+  founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens
+  of millions of monthly active users with tens of thousands of licensed doctors
+  through chat-based consultations (Tanya Dokter), online and in-person doctor
+  appointment booking, a large library of medically reviewed health articles and
+  a symptom and disease encyclopedia, health protection and insurance products, and
+  a health commerce surface for medicines and health products. This API Evangelist
+  profile was surfaced as a portfolio company of 500 Global and enriched from the
+  provider's own public web surface; Alodokter does not publish a public developer
+  API portal or OpenAPI at this time, so this profile focuses on company identity,
+  legal and support surfaces, and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/alodokter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.alodokter.com/assets/apple-touch-icon-fbe9a22f2fc74b52818c962ab91b40031f1e6dd2d614f376eb1efcc03c5bba0b.png
 tags:
 - Company
+- Health
+- Healthcare
+- Telemedicine
+- Telehealth
+- Digital Health
+- Medical
+- Doctors
+- Insurance
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,18 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://alodokter.com
+  url: https://www.alodokter.com
+- type: TermsOfService
+  url: https://www.alodokter.com/syarat-dan-ketentuan
+- type: PrivacyPolicy
+  url: https://www.alodokter.com/privasi
+- type: Support
+  name: Community (Tanya Dokter)
+  url: https://www.alodokter.com/komunitas/diskusi/penyakit
+- type: DomainSecurity
+  url: security/alodokter-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
